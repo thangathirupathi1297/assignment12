@@ -1,0 +1,88 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    background-image:url(img/body.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*
+{
+    box-sizing: border-box;
+}
+.login-container
+{
+    
+    margin: 15% auto;
+    background-color: rgba(0, 0, 0, 0.781);
+    height: auto;
+    width: 399px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+
+}
+.inputs
+{
+    width: 85%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+input{
+    width: 89%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+button
+{
+    width: 85%;
+    outline: none;
+    padding: 5px;
+    margin: 25px;
+
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
+input::placeholder
+{
+    color: white;
+
+}
+.eye
+{
+    position: absolute;
+}
+#open
+{
+    display: none;
+}
+#error1,#error2
+{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 400px)
+{
+    .login-container
+    {
+        
+        margin: 15% auto;
+        background-color: rgba(0, 0, 0, 0.781);
+        height: auto;
+        width:599px;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+    
+    }
+   
+}
