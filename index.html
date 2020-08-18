@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            thangathirupathi
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+
+<div class="login-container">
+    <h1 style="padding: 15px; ">Login here</h1>
+    <form onsubmit="return valitation()" autocomplete="off"  action="changecolor/index.html" >
+        <div class="inputs">
+            <i class="fa fa-user-circle"></i>
+        <input  type="text" id="name" placeholder="Name " >
+    </div>
+    <p id="error1">Please fill the name</p>
+        <div class="inputs">
+        <i class="fa fa-key"></i>
+        <input type="password" id="pwd" placeholder="Password"> <span class="eye" onclick="opneclose()"><i id="open" class="fa fa-eye"></i> <i id="close" class="fa fa-eye-slash"></i></span>  </div>
+        <p id="error2">Please fill the Password</p>
+        <button id="btn" type="submit">login</button>
+    </form>
+</div>
+
+
+<script src="javascript.js"></script>
+</body>
+</html>
